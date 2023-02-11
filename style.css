@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+
+footer{
+
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    height: 35px;
+}
+
+header{
+
+    /* background-color: black; */
+background-color: #2874f0;
+    /* border: 1px solid red; */
+    font-family: 'Lato', sans-serif;
+    height: 56px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 23px;
+} 
+
+ nav ul li a{
+
+    color: white;
+    text-decoration: none;
+
+ } 
+
+nav ul {
+    display: flex;
+justify-content: flex-start;
+align-items: center;
+height: 43px;
+}
+
+nav {
+    display: flex;
+}
+
+.logo img {
+
+    width: 75px;
+    padding: 8px 207px;
+    display: block;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.Explore{
+
+    color: white;
+    font-size: 11px;
+    font-style: italic;
+    margin-top: -1px;
+}
+
+.container{
+   
+min-height: 100vh;
+min-width: 100vh;
+
+}
