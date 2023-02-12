@@ -9,10 +9,12 @@
 
 footer{
 
-    background-color: black;
+    background-color: #2874f0;
     color: white;
     font-family: 'Lato', sans-serif;
-    height: 35px;
+    height: 15px;
+    text-align: center;
+    padding: 9px;
 }
 
 header{
